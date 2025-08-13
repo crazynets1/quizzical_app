@@ -12,50 +12,70 @@ function App() {
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
-            <span>Adiso</span>
-            <span>Hola</span>
-            <span>Au Revoir</span>
-            <span>Salir</span>
+            <input value='Adios' type='radio' name='answer' id='answer1'/>
+            <label for="answer1">Adiso</label>
+            <input value='Hola' type='radio' name='answer' id='answer2'/>
+            <label for="answer2">Hola</label>
+            <input value='Au Revoir' type='radio' name='answer' id='answer3'/>
+            <label for="answer3">Au Revoir</label>
+            <input value='Salir' type='radio' name='answer' id='answer4'/>
+            <label for='answer4'>Salir</label>
           </div>
         </div>
         <hr/>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
-            <span>Adiso</span>
-            <span>Hola</span>
-            <span>Au Revoir</span>
-            <span>Salir</span>
+            <input value='Adios' type='radio' name='answer' id='answer1'/>
+            <label for="answer1">Adiso</label>
+            <input value='Hola' type='radio' name='answer' id='answer2'/>
+            <label for="answer2">Hola</label>
+            <input value='Au Revoir' type='radio' name='answer' id='answer3'/>
+            <label for="answer3">Au Revoir</label>
+            <input value='Salir' type='radio' name='answer' id='answer4'/>
+            <label for='answer4'>Salir</label>
           </div>
         </div>
         <hr/>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
-            <span>Adiso</span>
-            <span>Hola</span>
-            <span>Au Revoir</span>
-            <span>Salir</span>
+            <input value='Adios' type='radio' name='answer' id='answer1'/>
+            <label for="answer1">Adiso</label>
+            <input value='Hola' type='radio' name='answer' id='answer2'/>
+            <label for="answer2">Hola</label>
+            <input value='Au Revoir' type='radio' name='answer' id='answer3'/>
+            <label for="answer3">Au Revoir</label>
+            <input value='Salir' type='radio' name='answer' id='answer4'/>
+            <label for='answer4'>Salir</label>
           </div>
         </div>
         <hr/>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
-            <span>Adiso</span>
-            <span>Hola</span>
-            <span>Au Revoir</span>
-            <span>Salir</span>
+            <input value='Adios' type='radio' name='answer' id='answer1'/>
+            <label for="answer1">Adiso</label>
+            <input value='Hola' type='radio' name='answer' id='answer2'/>
+            <label for="answer2">Hola</label>
+            <input value='Au Revoir' type='radio' name='answer' id='answer3'/>
+            <label for="answer3">Au Revoir</label>
+            <input value='Salir' type='radio' name='answer' id='answer4'/>
+            <label for='answer4'>Salir</label>
           </div>
         </div>
         <hr/>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
-            <span>Adiso</span>
-            <span>Hola</span>
-            <span>Au Revoir</span>
-            <span>Salir</span>
+            <input value='Adios' type='radio' name='answer' id='answer1'/>
+            <label for="answer1">Adiso</label>
+            <input value='Hola' type='radio' name='answer' id='answer2'/>
+            <label for="answer2">Hola</label>
+            <input value='Au Revoir' type='radio' name='answer' id='answer3'/>
+            <label for="answer3">Au Revoir</label>
+            <input value='Salir' type='radio' name='answer' id='answer4'/>
+            <label for='answer4'>Salir</label>
           </div>
         </div>
         <hr/>
