@@ -1,6 +1,7 @@
 body {
   font-family: 'Karla', sans-serif;
   background-color: #F5F7FB;
+  color: #293264;
 }
 
 main.main-section{
@@ -49,14 +50,14 @@ button.start-btn {
   font-size: 1.3rem;
 }
 
-section.quiz-section{
+section{
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items:flex-start;
 }
 
-section.quiz-section>div>h2{
+section>div>h2{
   color: #293264;
   font-weight: 700;
   text-align: left;
@@ -100,4 +101,41 @@ button.check-btn{
   height: 35px;
   flex-shrink: 0;
   align-self: center;
+}
+
+section.answer-section>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+section.answer-section>div>div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+span{
+  border: 1px solid #293264;
+  border-radius: 10px;
+  padding: 3px 25px;
+  color: #293264;
+}
+
+div.bottom{
+  display: flex;
+  justify-content: flex-start;
+  width:max-content;
+}
+
+div.bottom>p{
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+div.bottom>button{
+  width: 104px;
+  height: 32px;
+  padding: 2px 10px;
+  display:inline-block;
+  align-self: flex-end;
 }
