@@ -8,7 +8,7 @@ function App() {
       </header>
       <p className='game-description'>To start answering the questions click the Start Button below</p>
       <button className='start-btn'>Start Quiz</button>
-      <section className='quiz-section'>
+      <section>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
@@ -80,6 +80,62 @@ function App() {
         </div>
         <hr/>
         <button className='check-btn'>Check Answers</button>
+      </section>
+      <section className='answer-section'>
+        <div>
+          <h2>How would you say Adios is Spanish?</h2>
+          <div>
+            <span>Adios</span>
+            <span>Hola</span>
+            <span>Au Revoir</span>
+            <span>Salir</span>
+          </div>
+        </div>
+        <hr/>
+        <div>
+          <h2>How would you say Adios is Spanish?</h2>
+          <div>
+            <span>Adios</span>
+            <span>Hola</span>
+            <span>Au Revoir</span>
+            <span>Salir</span>
+          </div>
+        </div>
+        <hr/>
+        <div>
+          <h2>How would you say Adios is Spanish?</h2>
+          <div>
+            <span>Adios</span>
+            <span>Hola</span>
+            <span>Au Revoir</span>
+            <span>Salir</span>
+          </div>
+        </div>
+        <hr/>
+        <div>
+          <h2>How would you say Adios is Spanish?</h2>
+          <div>
+            <span>Adios</span>
+            <span>Hola</span>
+            <span>Au Revoir</span>
+            <span>Salir</span>
+          </div>
+        </div>
+        <hr/>
+        <div>
+          <h2>How would you say Adios is Spanish?</h2>
+          <div>
+            <span>Adios</span>
+            <span>Hola</span>
+            <span>Au Revoir</span>
+            <span>Salir</span>
+          </div>
+        </div>
+        <hr/>
+        <div className='bottom'>
+          <p>You have scored 3/5 correct answers</p>
+          <button>Play Again</button>
+        </div>
       </section>
     </main>
   );
