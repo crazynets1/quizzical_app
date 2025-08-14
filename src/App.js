@@ -1,14 +1,24 @@
 import './App.css';
 
 function App() {
+
+  function renderQuizSection() {
+    document.getElementById('quiz').classList.remove('block')
+  }
+
+  function renderAnswerSection () {
+    document.getElementById('answer').classList.remove('block')
+    console.log('hello')
+  }
+
   return (
     <main className='main-section'>
       <header>
         <h1 className='title'>Quizzical</h1>
+        <p className='game-description'>To start answering the questions click the Start Button below</p>
+        <button onClick={() => renderQuizSection()} className='start-btn'>Start Quiz</button>
       </header>
-      <p className='game-description'>To start answering the questions click the Start Button below</p>
-      <button className='start-btn'>Start Quiz</button>
-      <section>
+      <section id='quiz' className='block'>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div className='answers-div'>
@@ -79,9 +89,9 @@ function App() {
           </div>
         </div>
         <hr/>
-        <button className='check-btn'>Check Answers</button>
+        <button onClick={() => renderAnswerSection()} className='check-btn'>Check Answers</button>
       </section>
-      <section className='answer-section'>
+      <section id='answer' className='answer-section block'>
         <div>
           <h2>How would you say Adios is Spanish?</h2>
           <div>
