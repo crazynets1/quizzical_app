@@ -41,9 +41,9 @@ function App() {
   }, [apiData])
 
   const questionEls = questions.map(question => {
-    const decodedQuiz = decode(question)
+    const quiz = decode(question)
       return(
-        <h2>{decodedQuiz}</h2>
+        <h2>{quiz}</h2>
       )
   })
 
