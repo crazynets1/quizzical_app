@@ -12,7 +12,6 @@ function App() {
       try {
         const res = await fetch('https://opentdb.com/api.php?amount=5');
         if (res.status === 429) {
-          console.warn('Too Many Requests. Retrying in 2 seconds...');
           await new Promise(resolve => setTimeout(resolve, 2000)); // Wait for 2 seconds
           fetchData(); // Retry the fetch
         } else if (!res.ok) {
@@ -61,14 +60,14 @@ function App() {
 
  const answerSpan = answers.map((subArray, i) => {
   return subArray.map((item, j) => {
-    let decodedItem = decode(item)
-    return (
-      <span>
-        {decodedItem}
-      </span>
-    )
+    let answer = decode(item)
+      return (
+        <span key={j}>
+          {answer}
+        </span>
+      )
+    })
   })
- })
 
   function renderQuizSection() {
     document.getElementById('quiz').classList.remove('block')
