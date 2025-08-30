@@ -2,69 +2,61 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Quizzical App
+
+Quizzical is a React-based quiz application that fetches trivia questions from the Open Trivia Database API and presents them to users in a multiple-choice format.
+
+## Features
+
+- Fetches 5 random quiz questions from an external API.
+- Dynamically shuffles the correct answer among the incorrect answers for each question.
+- Renders each question with multiple-choice radio buttons.
+- Allows users to check their answers and displays their score.
+- Responsive and user-friendly interface.
+
+## Project Structure
+
+```
+quizzical_app/
+├── public/
+│   ├── index.html
+│   └── ... (favicon, manifest, etc.)
+├── src/
+│   ├── App.js        # Main React component with quiz logic and rendering
+│   ├── App.css       # Styles for the app
+│   ├── index.js      # Entry point for React
+│   └── index.css     # Global styles
+├── package.json
+└── README.md
+```
+
+## How It Works
+
+- On load, the app fetches 5 quiz questions from the Open Trivia Database API.
+- For each question, the correct answer is inserted at a random position among the incorrect answers.
+- Each question and its possible answers are displayed as radio inputs with labels.
+- Users can select answers and check their score.
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## Scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `npm start` — Runs the app in development mode at [http://localhost:3000](http://localhost:3000).
+- `npm run build` — Builds the app for production.
+- `npm test` — Runs tests (if any are added).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Customization
 
-### `npm test`
+- You can change the number of questions by modifying the API URL in `App.js`.
+- Styles can be updated in `App.css` and `index.css`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `npm run build`
+- React
+- html-entities (for decoding HTML entities in questions/answers)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Trivia questions provided by [Open Trivia Database](https://opentdb.com/).
