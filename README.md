@@ -1,10 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Quizzical App
-
 Quizzical is a React-based quiz application that fetches trivia questions from the Open Trivia Database API and presents them to users in a multiple-choice format.
+
+# Getting Started with Create React App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Features
 
